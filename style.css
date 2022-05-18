@@ -1,0 +1,42 @@
+body{
+    background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(222, 168, 248, 1) 0%,
+    rgba(168, 222, 248, 1) 21.8%,
+    rgba(189, 250, 205, 1) 35.6%,
+    rgba(243, 250, 189, 1) 52.9%,
+    rgba(250, 227, 189, 1) 66.8%,
+    rgba(248, 172, 172, 1) 90%,
+    rgba(254, 211, 252, 1) 99.7%
+  );
+}
+table.tbl{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+input[type="button"]{
+    color: black;
+    cursor: pointer;
+    background-color: white;
+    font-size: 2em;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 100%;
+    margin: 10px 60px 10px 0px;
+}
+input[type="text"]{
+    color: black;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font-size: 2em;
+    width: 100%;
+}
+#clear{
+    background: #ff9fa8;
+    border: 1px solid #ff9fa8;
+}
